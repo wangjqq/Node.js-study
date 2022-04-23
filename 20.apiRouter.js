@@ -12,8 +12,30 @@ router.get('/get', (req, res) => {
   res.send({
     status: 0,// 0表示处理成功,1表示处理失败
     msg: 'GET请求成功! ',// 状态的描述
-    data: query// 需要响应给客户端的数据
+    data: query,// 需要响应给客户端的数据
   })
 })
 
-module.express = router
+
+// 定义POST接口
+router.post('/post', (req, res) => {
+  // 通过req.body请求获取请求体中包含的url-encoded格式的数据
+  const body = req.body
+  // 调用res.send()方法,向客户端响应结果
+  res.send({
+    status: 0,
+    msg: 'POST请求成功! ',
+    data: body
+  })
+})
+
+// 定义DELETE接口
+router.delete('/delete', (req, res) => {
+
+  // 调用res.send()方法,向客户端响应结果
+  res.send({
+    status: 0,
+    msg: 'DELETE请求成功! ',
+  })
+})
+module.exports = router

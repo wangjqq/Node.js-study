@@ -1,6 +1,26 @@
 {
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "moment": "^2.29.3"
-  }
+    "moment": "^2.29.3",
+    "mysql": "^2.18.1"
+  },
+  "name": "node",
+  "description": "学习Node.js代码",
+  "version": "1.0.0",
+  "main": "01.使用readFile方法读取文件的内容.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangjqq/Node.js-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangjqq/Node.js-study/issues"
+  },
+  "homepage": "https://github.com/wangjqq/Node.js-study#readme"
 }
