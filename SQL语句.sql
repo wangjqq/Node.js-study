@@ -1,5 +1,5 @@
 -- 通过*把users表中所有的数据查询出来
-select * from users
+select * from ev_users
 
 -- 从users表中把usernaem和password对应的数据查询出来
 -- select username,password from users

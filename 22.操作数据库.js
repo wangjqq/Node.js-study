@@ -122,3 +122,4 @@ db.query(sqlStr, [1, 10], (err, results) => {
         console.log('标记删除成功');
     }
 })
+
